@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/7.5.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@4.1.2
+3 info using node@v7.5.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/rongsenng/Google Drive/motss/generator-whitelabel-custom-npm-package',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/rongsenng/.npm/generator-whitelabel-custom-npm-package/0.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/rongsenng/.npm correctMkdir not in flight; initializing
+10 warn prepublish-on-install As of npm@5, `prepublish` scripts will run only for `npm publish`.
+11 warn prepublish-on-install (In npm@4 and previous versions, it also runs for `npm install`.)
+12 warn prepublish-on-install See the deprecation note in `npm help scripts` for more information.
+13 info lifecycle generator-whitelabel-custom-npm-package@0.0.1~prepublish: generator-whitelabel-custom-npm-package@0.0.1
+14 verbose lifecycle generator-whitelabel-custom-npm-package@0.0.1~prepublish: unsafe-perm in lifecycle true
+15 verbose lifecycle generator-whitelabel-custom-npm-package@0.0.1~prepublish: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/rongsenng/Google Drive/motss/generator-whitelabel-custom-npm-package/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+16 verbose lifecycle generator-whitelabel-custom-npm-package@0.0.1~prepublish: CWD: /Users/rongsenng/Google Drive/motss/generator-whitelabel-custom-npm-package
+17 silly lifecycle generator-whitelabel-custom-npm-package@0.0.1~prepublish: Args: [ '-c', 'gulp prepublish' ]
+18 silly lifecycle generator-whitelabel-custom-npm-package@0.0.1~prepublish: Returned: code: 0  signal: null
+19 info lifecycle generator-whitelabel-custom-npm-package@0.0.1~prepare: generator-whitelabel-custom-npm-package@0.0.1
+20 silly lifecycle generator-whitelabel-custom-npm-package@0.0.1~prepare: no script for prepare, continuing
+21 verbose tar pack [ '/Users/rongsenng/.npm/generator-whitelabel-custom-npm-package/0.0.1/package.tgz',
+21 verbose tar pack   '/Users/rongsenng/Google Drive/motss/generator-whitelabel-custom-npm-package' ]
+22 verbose tarball /Users/rongsenng/.npm/generator-whitelabel-custom-npm-package/0.0.1/package.tgz
+23 verbose folder /Users/rongsenng/Google Drive/motss/generator-whitelabel-custom-npm-package
+24 verbose addLocalTarball adding from inside cache /Users/rongsenng/.npm/generator-whitelabel-custom-npm-package/0.0.1/package.tgz
+25 verbose correctMkdir /Users/rongsenng/.npm correctMkdir not in flight; initializing
+26 silly cache afterAdd generator-whitelabel-custom-npm-package@0.0.1
+27 verbose afterAdd /Users/rongsenng/.npm/generator-whitelabel-custom-npm-package/0.0.1/package/package.json not in flight; writing
+28 verbose correctMkdir /Users/rongsenng/.npm correctMkdir not in flight; initializing
+29 verbose afterAdd /Users/rongsenng/.npm/generator-whitelabel-custom-npm-package/0.0.1/package/package.json written
+30 silly publish { name: 'generator-whitelabel-custom-npm-package',
+30 silly publish   version: '0.0.1',
+30 silly publish   description: 'Generator to create template for whitelabel\'s custom NPM package',
+30 silly publish   keywords:
+30 silly publish    [ 'custom',
+30 silly publish      'generator',
+30 silly publish      'npm',
+30 silly publish      'template',
+30 silly publish      'whitelabel',
+30 silly publish      'yeoman',
+30 silly publish      'yeoman-generator',
+30 silly publish      'yo',
+30 silly publish      'zumata' ],
+30 silly publish   homepage: 'https://bitbucket.org/zumata_scripts/generator-whitelabel-custom-npm-package',
+30 silly publish   license: 'MIT',
+30 silly publish   author:
+30 silly publish    { name: 'motss',
+30 silly publish      email: 'rong_sen.ng@zumata.com',
+30 silly publish      url: 'https://github.com/motss' },
+30 silly publish   files: [ 'generators' ],
+30 silly publish   main: 'generators/index.js',
+30 silly publish   repository:
+30 silly publish    { type: 'git',
+30 silly publish      url: 'git+ssh://git@bitbucket.org/zumata_scripts/generator-whitelabel-custom-npm-package.git' },
+30 silly publish   scripts: { prepublish: 'gulp prepublish', test: 'gulp' },
+30 silly publish   eslintConfig: { env: { mocha: true }, extends: 'xo-space' },
+30 silly publish   dependencies:
+30 silly publish    { chalk: '^1.1.3',
+30 silly publish      'yeoman-generator': '^1.0.0',
+30 silly publish      yosay: '^1.2.1' },
+30 silly publish   devDependencies:
+30 silly publish    { eslint: '^3.1.1',
+30 silly publish      'eslint-config-xo-space': '^0.15.0',
+30 silly publish      gulp: '^3.9.0',
+30 silly publish      'gulp-coveralls': '^0.1.0',
+30 silly publish      'gulp-eslint': '^3.0.1',
+30 silly publish      'gulp-exclude-gitignore': '^1.0.0',
+30 silly publish      'gulp-istanbul': '^1.0.0',
+30 silly publish      'gulp-line-ending-corrector': '^1.0.1',
+30 silly publish      'gulp-mocha': '^3.0.1',
+30 silly publish      'gulp-nsp': '^2.1.0',
+30 silly publish      'gulp-plumber': '^1.0.0',
+30 silly publish      'yeoman-assert': '^2.2.1',
+30 silly publish      'yeoman-test': '^1.6.0' },
+30 silly publish   engines: { node: '^6.9.1', npm: '^3.10.8' },
+30 silly publish   private: true,
+30 silly publish   readme: '# generator-whitelabel-custom-npm-package [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]\n> Generator to create template for whitelabel\'s custom NPM package\n\n## Installation\n\nFirst, install [Yeoman](http://yeoman.io) and generator-whitelabel-custom-npm-package using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).\n\n```bash\nnpm install -g yo\nnpm install -g generator-whitelabel-custom-npm-package\n```\n\nThen generate your new project:\n\n```bash\nyo whitelabel-custom-npm-package\n```\n\n## Getting To Know Yeoman\n\n * Yeoman has a heart of gold.\n * Yeoman is a person with feelings and opinions, but is very easy to work with.\n * Yeoman can be too opinionated at times but is easily convinced not to be.\n * Feel free to [learn more about Yeoman](http://yeoman.io/).\n\n\n[npm-image]: https://badge.fury.io/js/generator-whitelabel-custom-npm-package.svg\n[npm-url]: https://npmjs.org/package/generator-whitelabel-custom-npm-package\n[travis-image]: https://travis-ci.org/Zumata/generator-whitelabel-custom-npm-package.svg?branch=master\n[travis-url]: https://travis-ci.org/Zumata/generator-whitelabel-custom-npm-package\n[daviddm-image]: https://david-dm.org/Zumata/generator-whitelabel-custom-npm-package.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/Zumata/generator-whitelabel-custom-npm-package\n[coveralls-image]: https://coveralls.io/repos/Zumata/generator-whitelabel-custom-npm-package/badge.svg\n[coveralls-url]: https://coveralls.io/r/Zumata/generator-whitelabel-custom-npm-package\n',
+30 silly publish   readmeFilename: 'README.md',
+30 silly publish   gitHead: '74043734bed53abbdea0382fc2ccdb1a494d4e90',
+30 silly publish   _id: 'generator-whitelabel-custom-npm-package@0.0.1',
+30 silly publish   _shasum: '216e08cd751ddeb83f860e44d43d958f68782236',
+30 silly publish   _from: '.' }
+31 info lifecycle generator-whitelabel-custom-npm-package@0.0.1~prepublishOnly: generator-whitelabel-custom-npm-package@0.0.1
+32 silly lifecycle generator-whitelabel-custom-npm-package@0.0.1~prepublishOnly: no script for prepublishOnly, continuing
+33 verbose getPublishConfig undefined
+34 verbose stack Error: This package has been marked as private
+34 verbose stack Remove the 'private' field from the package.json to publish it.
+34 verbose stack     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:102:15)
+34 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+34 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+34 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+34 verbose stack     at done (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:132:5)
+34 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+34 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+34 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:318:20
+34 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:284:29
+34 verbose stack     at FSReqWrap.oncomplete (fs.js:112:15)
+35 verbose cwd /Users/rongsenng/Google Drive/motss/generator-whitelabel-custom-npm-package
+36 error Darwin 16.4.0
+37 error argv "/usr/local/Cellar/node/7.5.0/bin/node" "/usr/local/bin/npm" "publish"
+38 error node v7.5.0
+39 error npm  v4.1.2
+40 error This package has been marked as private
+40 error Remove the 'private' field from the package.json to publish it.
+41 error If you need help, you may report this error at:
+41 error     <https://github.com/npm/npm/issues>
+42 verbose exit [ 1, true ]
