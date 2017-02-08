@@ -34,7 +34,13 @@ module.exports = Generator.extend({
     ];
 
     this.fs.copyTpl(
-      `${this.templatePath()}/**/{.*, !(_)*}`,
+      `${this.templatePath()}/**/!(_)*`,
+      this.destinationPath(),
+      this.props
+    );
+
+    this.fs.copyTpl(
+      `${this.templatePath()}/**/.*`,
       this.destinationPath(),
       this.props
     );
