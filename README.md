@@ -1,5 +1,5 @@
 # generator-whitelabel-custom-npm-package [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Generator to create template for whitelabel&#39;s custom NPM package
+> Generator to create template for whitelabel's custom NPM package
 
 ## Installation
 
@@ -22,10 +22,6 @@ yo whitelabel-custom-npm-package
  * Yeoman is a person with feelings and opinions, but is very easy to work with.
  * Yeoman can be too opinionated at times but is easily convinced not to be.
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
-
-## License
-
- © [motss](https://github.com/motss)
 
 
 [npm-image]: https://badge.fury.io/js/generator-whitelabel-custom-npm-package.svg
