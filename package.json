@@ -14,6 +14,9 @@
     "zumata"
   ],
   "homepage": "https://bitbucket.org/zumata_scripts/generator-whitelabel-custom-npm-package",
+  "bugs": {
+    "url": "https://bitbucket.org/zumata_scripts/generator-whitelabel-custom-npm-package/issues"
+  },
   "license": "MIT",
   "author": {
     "name": "motss",
@@ -24,7 +27,10 @@
     "generators"
   ],
   "main": "generators/index.js",
-  "repository": "git@bitbucket.org:zumata_scripts/generator-whitelabel-custom-npm-package.git",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:zumata_scripts/generator-whitelabel-custom-npm-package.git"
+  },
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
@@ -54,6 +60,10 @@
     "gulp-plumber": "^1.0.0",
     "yeoman-assert": "^2.2.1",
     "yeoman-test": "^1.6.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.8.0",
+    "eslint-plugin-import": "^2.0.1"
   },
   "engines": {
     "node": "^6.9.1",
