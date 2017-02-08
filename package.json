@@ -1,6 +1,6 @@
 {
   "name": "generator-whitelabel-custom-npm-package",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Generator to create template for whitelabel's custom NPM package",
   "keywords": [
     "custom",
