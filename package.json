@@ -14,6 +14,7 @@
     "zumata"
   ],
   "homepage": "https://bitbucket.org/zumata_scripts/generator-whitelabel-custom-npm-package",
+  "license": "MIT",
   "author": {
     "name": "motss",
     "email": "rong_sen.ng@zumata.com",
@@ -53,6 +54,10 @@
     "gulp-plumber": "^1.0.0",
     "yeoman-assert": "^2.2.1",
     "yeoman-test": "^1.6.0"
+  },
+  "engines": {
+    "node": "^6.9.1",
+    "npm": "^3.10.8"
   },
   "private": true
 }
