@@ -61,10 +61,6 @@
     "yeoman-assert": "^2.2.1",
     "yeoman-test": "^1.6.0"
   },
-  "peerDependencies": {
-    "eslint": "^3.8.0",
-    "eslint-plugin-import": "^2.0.1"
-  },
   "engines": {
     "node": "^6.9.1",
     "npm": "^3.10.8"

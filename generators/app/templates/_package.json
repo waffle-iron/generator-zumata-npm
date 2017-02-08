@@ -26,6 +26,10 @@
     "build:test": "rm -rf dist && babel src/ -d dist/",
     "watch": "babel -w src/ -d dist/"
   },
+  "peerDependencies": {
+    "eslint": "^3.8.0",
+    "eslint-plugin-import": "^2.0.1"
+  },
   "dependencies": {
   },
   "devDependencies": {
