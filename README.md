@@ -29,6 +29,10 @@ yo whitelabel-custom-npm-package
  * Yeoman can be too opinionated at times but is easily convinced not to be.
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
+## License
+[MIT License](http://the-zumata-team.mit-license.org/) © The Zumata Team
+
+
 [npm-image]: https://badge.fury.io/js/generator-whitelabel-custom-npm-package.svg
 [npm-url]: https://npmjs.org/package/generator-whitelabel-custom-npm-package
 [travis-image]: https://travis-ci.org/Zumata/generator-whitelabel-custom-npm-package.svg?branch=master

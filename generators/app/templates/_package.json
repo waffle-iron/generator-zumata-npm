@@ -20,17 +20,6 @@
     "type": "git",
     "url": ""
   },
-  "eslintConfig": {
-    "extends": [
-      "zumata"
-    ],
-    "rules": {
-      "no-console": [
-        "error",
-        { "allow": [ "log", "error", "warn" ] }
-      ]
-    }
-  },
   "scripts": {
     "build": "sh ./run-build.sh",
     "build:clean": "sh ./run-build.sh clean",
