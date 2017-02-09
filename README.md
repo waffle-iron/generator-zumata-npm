@@ -39,5 +39,5 @@ yo whitelabel-custom-npm-package
 [travis-url]: https://travis-ci.org/Zumata/generator-whitelabel-custom-npm-package
 [daviddm-image]: https://david-dm.org/Zumata/generator-whitelabel-custom-npm-package.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/Zumata/generator-whitelabel-custom-npm-package
-[coveralls-image]: https://coveralls.io/repos/Zumata/generator-whitelabel-custom-npm-package/badge.svg
-[coveralls-url]: https://coveralls.io/r/Zumata/generator-whitelabel-custom-npm-package
+[coveralls-image]: https://coveralls.io/repos/github/Zumata/generator-whitelabel-custom-npm-package/badge.svg
+[coveralls-url]: https://coveralls.io/github/Zumata/generator-whitelabel-custom-npm-package
