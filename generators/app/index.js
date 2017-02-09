@@ -32,26 +32,21 @@ module.exports = Generator.extend({
       '_PublisherDockerfile',
       '_README.md'
     ];
+    const RAW_GLOB_PATTERNS = [
+      '!(_)*',
+      '.*',
+    ];
 
-    this.fs.copyTpl(
-      `${this.templatePath()}/**/!(_)*`,
-      this.destinationPath(),
+  RAW_GLOB_PATTERNS.map(rawGlobPattern => this.fs.copy(
+    `${this.templatePath()}/**/${rawGlobPattern}`,
+    this.destinationPath()
+  ));
+
+    TPLS.map(tpl => this.fs.copyTpl(
+      this.templatePath(tpl),
+      this.destinationPath(tpl.replace(/(_)/gi, '')),
       this.props
-    );
-
-    this.fs.copyTpl(
-      `${this.templatePath()}/**/.*`,
-      this.destinationPath(),
-      this.props
-    );
-
-    TPLS.map(tpl => {
-      return this.fs.copyTpl(
-        this.templatePath(tpl),
-        this.destinationPath(tpl.replace(/(_)/gi, '')),
-        this.props
-      );
-    });
+    ));
   },
 
   install: function () {
