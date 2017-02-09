@@ -1,4 +1,4 @@
-# generator-whitelabel-custom-npm-package [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-whitelabel-custom-npm-package [![npm version](https://badge.fury.io/js/generator-whitelabel-custom-npm-package.svg)](https://badge.fury.io/js/generator-whitelabel-custom-npm-package) [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Generator to create template for whitelabel's custom NPM package
 
 ## Installation
@@ -24,8 +24,6 @@ yo whitelabel-custom-npm-package
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
 
-[npm-image]: https://badge.fury.io/js/generator-whitelabel-custom-npm-package.svg
-[npm-url]: https://npmjs.org/package/generator-whitelabel-custom-npm-package
 [travis-image]: https://travis-ci.org/Zumata/generator-whitelabel-custom-npm-package.svg?branch=master
 [travis-url]: https://travis-ci.org/Zumata/generator-whitelabel-custom-npm-package
 [daviddm-image]: https://david-dm.org/Zumata/generator-whitelabel-custom-npm-package.svg?theme=shields.io
