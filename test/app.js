@@ -22,6 +22,7 @@ describe('generator-whitelabel-custom-npm-package:app', function () {
       '.dockerignore',
       '.editorconfig',
       '.eslintignore',
+      '.eslintrc.json',
       '.gitattributes',
       '.gitignore',
       '.npmignore',
