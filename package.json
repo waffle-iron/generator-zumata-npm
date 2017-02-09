@@ -13,9 +13,9 @@
     "yo",
     "zumata"
   ],
-  "homepage": "https://bitbucket.org/zumata_scripts/generator-whitelabel-custom-npm-package",
+  "homepage": "https://github.com/Zumata/generator-whitelabel-custom-npm-package",
   "bugs": {
-    "url": "https://bitbucket.org/zumata_scripts/generator-whitelabel-custom-npm-package/issues"
+    "url": "https://github.com/Zumata/generator-whitelabel-custom-npm-package/issues"
   },
   "license": "MIT",
   "author": {
@@ -29,7 +29,7 @@
   "main": "generators/index.js",
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:zumata_scripts/generator-whitelabel-custom-npm-package.git"
+    "url": "git@github.com:Zumata/generator-whitelabel-custom-npm-package.git"
   },
   "scripts": {
     "prepublish": "gulp prepublish",
