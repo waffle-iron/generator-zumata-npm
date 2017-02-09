@@ -30,17 +30,18 @@ module.exports = Generator.extend({
       'src/_index.js',
       '_package.json',
       '_PublisherDockerfile',
-      '_README.md'
+      '_README.md',
+      '_.eslintrc'
     ];
     const RAW_GLOB_PATTERNS = [
       '!(_)*',
-      '.*',
+      '.*'
     ];
 
-  RAW_GLOB_PATTERNS.map(rawGlobPattern => this.fs.copy(
-    `${this.templatePath()}/**/${rawGlobPattern}`,
-    this.destinationPath()
-  ));
+    RAW_GLOB_PATTERNS.map(rawGlobPattern => this.fs.copy(
+      `${this.templatePath()}/**/${rawGlobPattern}`,
+      this.destinationPath()
+    ));
 
     TPLS.map(tpl => this.fs.copyTpl(
       this.templatePath(tpl),
