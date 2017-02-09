@@ -31,7 +31,7 @@ module.exports = Generator.extend({
       '_package.json',
       '_PublisherDockerfile',
       '_README.md',
-      '_.eslintrc'
+      '_.eslintrc.json'
     ];
     const RAW_GLOB_PATTERNS = [
       '!(_)*',
