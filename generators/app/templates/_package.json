@@ -40,6 +40,6 @@
     "babel-preset-babili": "^0.0.5",
     "babel-preset-env": "^0.0.9",
     "eslint": "^3.7.1",
-    "eslint-config-zumata": "^0.1.0"
+    "eslint-config-zumata": "^0.2.0"
   }
 }
