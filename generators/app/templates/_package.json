@@ -20,6 +20,7 @@
     "build": "sh ./run-build.sh",
     "build:clean": "sh ./run-build.sh clean",
     "build:test": "rm -rf dist && babel src/ -d dist/",
+    "prepublish": "nsp check",
     "watch": "babel -w src/ -d dist/"
   },
   "dependencies": {},
@@ -31,7 +32,8 @@
     "babel-preset-babili": "^0.0.5",
     "babel-preset-env": "^0.0.9",
     "eslint": "^3.8.0",
-    "eslint-config-zumata": "^0.2.1"
+    "eslint-config-zumata": "^0.2.1",
+    "nsp": "^2.6.2"
   },
   "peerDependencies": {
     "eslint": "^3.8.0",
