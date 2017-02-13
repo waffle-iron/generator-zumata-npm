@@ -10,7 +10,7 @@
   ],
   "homepage": "",
   "license": "UNLICENSED",
-  "author": "zumata",
+  "author": "The Zumata Team",
   "main": "dist/index.js",
   "repository": {
     "type": "git",

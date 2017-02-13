@@ -34,8 +34,7 @@ module.exports = Generator.extend({
       '_.eslintrc.json'
     ];
     const RAW_GLOB_PATTERNS = [
-      '!(_)*',
-      '.*'
+      '{.,!(_)}*'
     ];
 
     RAW_GLOB_PATTERNS.map(rawGlobPattern => this.fs.copy(

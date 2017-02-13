@@ -25,7 +25,7 @@
         "babili"
       ],
       "plugins": [
-        "transform-remove-console",
+        // "transform-remove-console",
         "transform-remove-debugger"
       ],
       "ignore": [
