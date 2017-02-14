@@ -3,10 +3,10 @@
 clear; printf "Running delete-directories script...\n"
 
 has_unused_directories=false
-directories="dist/ node_modules/"
+directories="dist/ node_modules/ npm-debug.log yarn-error.log"
 
 for directory in $directories; do
-  if [ -d "$directory" ]; then
+  if [ -d "$directory" ] || [ -f "$directory" ]; then
     printf "\nRemoving %s...\n" "$directory"
     rm -rf "$directory"
     has_unused_directories=true
