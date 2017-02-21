@@ -15,7 +15,7 @@ module.exports = Generator.extend({
       name: 'packageName',
       message: 'What would you like your package to be named?',
       default: () => {
-        return process.cwd().replace(/(?:.*\/)(.+)/i, '$1');
+        return process.cwd().replace(/(?:.*[\/\\])([^\/\\]+?)[\/\\]*?$/gi, '$1');
       }
     }];
 
