@@ -34,11 +34,8 @@
     "babel-preset-env": "^1.1.8",
     "eslint": "^3.8.0",
     "eslint-config-zumata": "^0.2.1",
-    "nsp": "^2.6.2"
-  },
-  "peerDependencies": {
-    "eslint": "^3.8.0",
-    "eslint-plugin-import": "^2.0.1"
+    "nsp": "^2.6.2",
+    "snyk": "^1.25.2"
   },
   "engines": {
     "node": ">= 6.9.1",

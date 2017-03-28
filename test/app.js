@@ -28,7 +28,7 @@ describe('generator-whitelabel-custom-npm-package:app', function () {
       '.npmignore',
       '.npmrc',
       'AUTHORS',
-      'delete-directories.sh',
+      'clean-directories.sh',
       'run-build.sh'
     ]);
   });
