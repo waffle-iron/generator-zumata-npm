@@ -6,7 +6,6 @@
 
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
-[![Build status][appveyor-image]][appveyor-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Coverage percentage][coveralls-image]][coveralls-url]
 [![codecov][codecov-image]][codecov-url]
@@ -59,8 +58,6 @@ $ yo whitelabel-custom-npm-package
 [npm-url]: https://npmjs.org/package/generator-whitelabel-custom-npm-package
 [travis-image]: https://travis-ci.org/Zumata/generator-whitelabel-custom-npm-package.svg?branch=master
 [travis-url]: https://travis-ci.org/Zumata/generator-whitelabel-custom-npm-package
-[appveyor-image]: https://ci.appveyor.com/api/projects/status/t80isgkoak8kd6qn/branch/master?svg=true
-[appveyor-url]: https://ci.appveyor.com/project/motss/generator-whitelabel-custom-npm-package/branch/master
 [daviddm-image]: https://david-dm.org/Zumata/generator-whitelabel-custom-npm-package.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/Zumata/generator-whitelabel-custom-npm-package
 [coveralls-image]: https://coveralls.io/repos/github/Zumata/generator-whitelabel-custom-npm-package/badge.svg

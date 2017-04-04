@@ -59,14 +59,9 @@ gulp.task('coverage', ['test'], function () {
     return;
   }
 
-  if (process.platform === 'linux') {
-    return gulp.src(path.join(__dirname, 'coverage/lcov.info'))
-      .pipe(coveralls())
-      .pipe(codecov());
-  }
-
   return gulp.src(path.join(__dirname, 'coverage/lcov.info'))
-    .pipe(coveralls());
+    .pipe(coveralls())
+    .pipe(codecov());
 });
 
 gulp.task('prepublish', ['nsp']);
