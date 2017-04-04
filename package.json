@@ -19,9 +19,9 @@
   },
   "license": "MIT",
   "author": {
-    "name": "motss",
-    "email": "rong_sen.ng@zumata.com",
-    "url": "https://github.com/motss"
+    "name": "The Zumata Team",
+    "email": "gary.theis@zumata.com",
+    "url": "https://github.com/Zumata"
   },
   "files": [
     "generators"
@@ -50,6 +50,7 @@
     "eslint": "^3.1.1",
     "eslint-config-xo-space": "^0.15.0",
     "gulp": "^3.9.0",
+    "gulp-codecov": "^2.0.2",
     "gulp-coveralls": "^0.1.0",
     "gulp-eslint": "^3.0.1",
     "gulp-exclude-gitignore": "^1.0.0",
