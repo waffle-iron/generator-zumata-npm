@@ -11,7 +11,7 @@ platform:
 # Install scripts. (runs after repo cloning)
 install:
   - ps: Install-Product node $env:nodejs_version $env:platform
-  - npm install -g npm
+  - npm install -g npm codecov
   - npm install
 
 # Post-install test scripts.
