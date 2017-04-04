@@ -9,7 +9,6 @@ const istanbul = require('gulp-istanbul');
 const nsp = require('gulp-nsp');
 const plumber = require('gulp-plumber');
 const coveralls = require('gulp-coveralls');
-const codecov = require('gulp-codecov');
 
 gulp.task('static', function () {
   return gulp.src('**/*.js')
@@ -60,8 +59,7 @@ gulp.task('coverage', ['test'], function () {
   }
 
   return gulp.src(path.join(__dirname, 'coverage/lcov.info'))
-    .pipe(coveralls())
-    .pipe(codecov());
+    .pipe(coveralls());
 });
 
 gulp.task('prepublish', ['nsp']);
