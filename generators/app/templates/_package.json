@@ -20,7 +20,11 @@
     "build": "sh ./run-build.sh",
     "build:clean": "sh ./run-build.sh clean",
     "build:test": "rm -rf dist && babel src/ -d dist/",
-    "prepublish": "nsp check",
+    "check": "npm run nsp && npm run snyk",
+    "lint": "eslint ./src",
+    "nsp": "nsp check",
+    "prepublish": "npm run lint && npm run check && npm run build",
+    "snyk": "snyk test",
     "watch": "babel -w src/ -d dist/"
   },
   "dependencies": {},
