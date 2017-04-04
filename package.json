@@ -33,7 +33,7 @@
   },
   "scripts": {
     "prepublish": "gulp prepublish",
-    "test": "gulp && codecov"
+    "test": "gulp"
   },
   "eslintConfig": {
     "env": {
@@ -47,10 +47,10 @@
     "yosay": "^2.0.0"
   },
   "devDependencies": {
-    "codecov": "^2.1.0",
     "eslint": "^3.1.1",
     "eslint-config-xo-space": "^0.15.0",
     "gulp": "^3.9.0",
+    "gulp-codecov": "^2.0.2",
     "gulp-coveralls": "^0.1.0",
     "gulp-eslint": "^3.0.1",
     "gulp-exclude-gitignore": "^1.0.0",

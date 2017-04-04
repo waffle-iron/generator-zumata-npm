@@ -9,6 +9,7 @@ const istanbul = require('gulp-istanbul');
 const nsp = require('gulp-nsp');
 const plumber = require('gulp-plumber');
 const coveralls = require('gulp-coveralls');
+const codecov = require('gulp-codecov');
 
 gulp.task('static', function () {
   return gulp.src('**/*.js')
@@ -56,6 +57,12 @@ gulp.task('watch', function () {
 gulp.task('coverage', ['test'], function () {
   if (!process.env.CI) {
     return;
+  }
+
+  if (process.platform === 'linux') {
+    return gulp.src(path.join(__dirname, 'coverage/lcov.info'))
+      .pipe(coveralls())
+      .pipe(codecov());
   }
 
   return gulp.src(path.join(__dirname, 'coverage/lcov.info'))
