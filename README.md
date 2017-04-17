@@ -1,9 +1,10 @@
 # generator-whitelabel-custom-npm-package 
 
-  [![NPM][nodei-image]][nodei-url]
-
 > Generator to create template for whitelabel's custom NPM package
 
+[![NPM][nodei-image]][nodei-url]
+
+[![Node][node-image]][node-url]
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
@@ -54,6 +55,8 @@ $ yo whitelabel-custom-npm-package
 
 [nodei-image]: https://nodei.co/npm/generator-whitelabel-custom-npm-package.png?downloads=true&downloadRank=true&stars=true
 [nodei-url]: https://nodei.co/npm/generator-whitelabel-custom-npm-package/
+[node-image]: https://img.shields.io/node/v/generator-whitelabel-custom-npm-package.svg
+[node-url]: https://nodejs.org/en/download/
 [npm-image]: https://badge.fury.io/js/generator-whitelabel-custom-npm-package.svg
 [npm-url]: https://npmjs.org/package/generator-whitelabel-custom-npm-package
 [travis-image]: https://travis-ci.org/Zumata/generator-whitelabel-custom-npm-package.svg?branch=master

@@ -2,6 +2,9 @@
   "extends": [
     "zumata"
   ],
+  "plugins": [
+    "security"
+  ],
   "rules": {
     "no-console": [
       "error",
