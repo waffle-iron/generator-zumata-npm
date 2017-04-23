@@ -30,6 +30,7 @@
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.14.0",
+    "babel-plugin-minify-builtins": "0.0.2",
     "babel-plugin-minify-empty-function": "0.0.1",
     "babel-plugin-transform-remove-console": "^6.8.0",
     "babel-plugin-transform-remove-debugger": "^6.8.0",

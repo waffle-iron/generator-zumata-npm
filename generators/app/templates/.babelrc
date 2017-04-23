@@ -18,7 +18,8 @@
     "transform-property-literals",
     "transform-simplify-comparison-operators",
     "transform-undefined-to-void",
-    "minify-empty-function"
+    "minify-empty-function",
+    "minify-builtins"
   ],
   "env": {
     "build": {
