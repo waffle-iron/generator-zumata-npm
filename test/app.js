@@ -1,7 +1,9 @@
+// @ts-check
+
 'use strict';
-var path = require('path');
-var assert = require('yeoman-assert');
-var helpers = require('yeoman-test');
+const path = require('path');
+const assert = require('yeoman-assert');
+const helpers = require('yeoman-test');
 
 describe('generator-whitelabel-custom-npm-package:app', function () {
   before(function () {
@@ -28,6 +30,7 @@ describe('generator-whitelabel-custom-npm-package:app', function () {
       '.npmignore',
       '.npmrc',
       'AUTHORS',
+      'LICENSE',
       'clean-directories.sh',
       'run-build.sh'
     ]);
