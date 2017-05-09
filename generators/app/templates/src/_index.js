@@ -1,11 +1,9 @@
-// @ts-check
-
 /**
  * Constructor for Greetings object.
  *
- * @class Grettings
+ * @class Greetings
  */
-class Grettings {
+class Greetings {
   /**
    * Pre-defined greeting text.
    *
@@ -13,7 +11,7 @@ class Grettings {
    * @static
    * @returns {string} Pre-defined greeting text.
    *
-   * @memberOf Grettings
+   * @memberOf Greetings
    */
   static get greetingText() {
     return 'Hello World from <%= packageName %>!';
@@ -28,7 +26,7 @@ class Grettings {
    * @memberOf Grettings
    */
   static init() {
-    return Grettings.greetingText;
+    return Greetings.greetingText;
   }
 }
 
