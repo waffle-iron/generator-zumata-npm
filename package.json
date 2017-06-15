@@ -1,6 +1,6 @@
 {
   "name": "generator-zumata-npm",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Generator to create template for any NPM package/ project",
   "keywords": [
     "generator",
