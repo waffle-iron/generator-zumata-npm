@@ -1,21 +1,20 @@
 {
-  "name": "generator-whitelabel-custom-npm-package",
+  "name": "generator-zumata-npm",
   "version": "0.2.0",
-  "description": "Generator to create template for whitelabel's custom NPM package",
+  "description": "Generator to create template for any NPM package/ project",
   "keywords": [
-    "custom",
     "generator",
     "npm",
     "template",
-    "whitelabel",
     "yeoman",
     "yeoman-generator",
     "yo",
-    "zumata"
+    "zumata",
+    "zumata-npm"
   ],
-  "homepage": "https://github.com/Zumata/generator-whitelabel-custom-npm-package",
+  "homepage": "https://github.com/Zumata/generator-zumata-npm",
   "bugs": {
-    "url": "https://github.com/Zumata/generator-whitelabel-custom-npm-package/issues"
+    "url": "https://github.com/Zumata/generator-zumata-npm/issues"
   },
   "license": "MIT",
   "author": {
@@ -29,7 +28,7 @@
   "main": "generators/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Zumata/generator-whitelabel-custom-npm-package.git"
+    "url": "git@github.com:Zumata/generator-zumata-npm.git"
   },
   "scripts": {
     "prepublish": "gulp prepublish",
@@ -47,19 +46,19 @@
     "yosay": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.1.1",
-    "eslint-config-xo-space": "^0.15.0",
+    "eslint": "^4.0.0",
+    "eslint-config-xo-space": "^0.16.0",
     "gulp": "^3.9.0",
-    "gulp-codecov": "^2.0.2",
+    "gulp-codecov": "^3.0.1",
     "gulp-coveralls": "^0.1.0",
-    "gulp-eslint": "^3.0.1",
+    "gulp-eslint": "^4.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
     "gulp-istanbul": "^1.0.0",
     "gulp-line-ending-corrector": "^1.0.1",
-    "gulp-mocha": "^3.0.1",
+    "gulp-mocha": "^4.3.1",
     "gulp-nsp": "^2.1.0",
     "gulp-plumber": "^1.0.0",
-    "yeoman-assert": "^2.2.1",
+    "yeoman-assert": "^3.0.0",
     "yeoman-test": "^1.6.0"
   },
   "engines": {

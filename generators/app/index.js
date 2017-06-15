@@ -8,7 +8,7 @@ module.exports = Generator.extend({
   prompting: function () {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the polished ' + chalk.red('generator-whitelabel-custom-npm-package') + ' generator!'
+      'Welcome to the polished ' + chalk.red('generator-zumata-npm') + ' generator!'
     ));
 
     var prompts = [{
@@ -58,7 +58,7 @@ module.exports = Generator.extend({
       npm: true,
       yarn: false,
       callback: () => {
-        console.log(`✨  Your custom NPM package ${chalk.green(this.props.packageName)} is ready! ✨`);
+        console.log(`✨  Your NPM package ${chalk.green(this.props.packageName)} is ready! ✨`);
       }
     });
   }

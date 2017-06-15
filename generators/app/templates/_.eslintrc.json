@@ -7,7 +7,7 @@
   "rules": {
     "no-console": [
       "error",
-      { "allow": [ "log", "error", "warn" ] }
+      { "allow": [ "info", "log", "error", "warn" ] }
     ]
   }
 }

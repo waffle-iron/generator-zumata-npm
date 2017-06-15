@@ -1,5 +1,5 @@
 # <%= packageName %>
-A custom package to output greetings.
+Yet another NPM package to output greetings.
 
 ## How to use
 ```js

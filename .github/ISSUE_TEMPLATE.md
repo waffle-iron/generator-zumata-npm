@@ -1,6 +1,6 @@
 ### Description
 
-<!-- Example: The `generator-whitelabel-custom-npm-package` does not generate the scaffold correctly. -->
+<!-- Example: The `generator-zumata-npm` does not generate the scaffold correctly. -->
 
 ### Expected outcome
 
@@ -14,7 +14,7 @@
 
 <!-- Example
 
-1. Run `yo generator-whitelabel-custom-npm-package` in a directory.
+1. Run `yo generator-zumata-npm` in a directory.
 
 2. Open the directory with your favorite code editor.
 
@@ -24,6 +24,6 @@
 
 ### Versions of affected system
 
-- **generator-whitelabel-custom-npm-package version**:
+- **generator-zumata-npm version**:
 - **Node.js version**:
 - **Platform details** _(e.g. macOS Sierra 10.12.4)_:

@@ -1,6 +1,6 @@
-# generator-whitelabel-custom-npm-package 
+# generator-zumata-npm
 
-> Generator to create template for whitelabel's custom NPM package
+> Generator to create template for any NPM package/ project
 
 [![NPM][nodei-image]][nodei-url]
 
@@ -28,16 +28,16 @@ Please make sure that you have the followings installed on your machine:
 
 ### Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-whitelabel-custom-npm-package using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-zumata-npm using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```
-$ npm install -g yo generator-whitelabel-custom-npm-package
+$ npm install -g yo generator-zumata-npm
 ```
 
 Then generate your new project:
 
 ```
-$ yo whitelabel-custom-npm-package
+$ yo zumata-npm
 ```
 
 
@@ -53,20 +53,20 @@ $ yo whitelabel-custom-npm-package
 [MIT License](http://the-zumata-team.mit-license.org/) © The Zumata Team
 
 
-[nodei-image]: https://nodei.co/npm/generator-whitelabel-custom-npm-package.png?downloads=true&downloadRank=true&stars=true
-[nodei-url]: https://nodei.co/npm/generator-whitelabel-custom-npm-package/
-[node-image]: https://img.shields.io/node/v/generator-whitelabel-custom-npm-package.svg
+[nodei-image]: https://nodei.co/npm/generator-zumata-npm.png?downloads=true&downloadRank=true&stars=true
+[nodei-url]: https://nodei.co/npm/generator-zumata-npm/
+[node-image]: https://img.shields.io/node/v/generator-zumata-npm.svg
 [node-url]: https://nodejs.org/en/download/
-[npm-image]: https://badge.fury.io/js/generator-whitelabel-custom-npm-package.svg
-[npm-url]: https://npmjs.org/package/generator-whitelabel-custom-npm-package
-[travis-image]: https://travis-ci.org/Zumata/generator-whitelabel-custom-npm-package.svg?branch=master
-[travis-url]: https://travis-ci.org/Zumata/generator-whitelabel-custom-npm-package
-[daviddm-image]: https://david-dm.org/Zumata/generator-whitelabel-custom-npm-package.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/Zumata/generator-whitelabel-custom-npm-package
-[coveralls-image]: https://coveralls.io/repos/github/Zumata/generator-whitelabel-custom-npm-package/badge.svg
-[coveralls-url]: https://coveralls.io/github/Zumata/generator-whitelabel-custom-npm-package
-[codecov-image]: https://codecov.io/gh/Zumata/generator-whitelabel-custom-npm-package/branch/master/graph/badge.svg
-[codecov-url]: https://codecov.io/gh/Zumata/generator-whitelabel-custom-npm-package
+[npm-image]: https://badge.fury.io/js/generator-zumata-npm.svg
+[npm-url]: https://npmjs.org/package/generator-zumata-npm
+[travis-image]: https://travis-ci.org/Zumata/generator-zumata-npm.svg?branch=master
+[travis-url]: https://travis-ci.org/Zumata/generator-zumata-npm
+[daviddm-image]: https://david-dm.org/Zumata/generator-zumata-npm.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/Zumata/generator-zumata-npm
+[coveralls-image]: https://coveralls.io/repos/github/Zumata/generator-zumata-npm/badge.svg
+[coveralls-url]: https://coveralls.io/github/Zumata/generator-zumata-npm
+[codecov-image]: https://codecov.io/gh/Zumata/generator-zumata-npm/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/Zumata/generator-zumata-npm
 [nsp-image]: https://nodesecurity.io/orgs/motss/projects/6e9fabde-73e1-456c-a2d7-8588023ed1ce/badge
 [nsp-url]: https://nodesecurity.io/orgs/motss/projects/6e9fabde-73e1-456c-a2d7-8588023ed1ce
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg
