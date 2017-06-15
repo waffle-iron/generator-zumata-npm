@@ -1,4 +1,4 @@
-# generator-whitelabel-custom-npm-package 
+# [DEPRECATED] generator-whitelabel-custom-npm-package 
 
 > Generator to create template for whitelabel's custom NPM package
 
@@ -13,6 +13,8 @@
 [![NSP Status][nsp-image]][nsp-url]
 [![GitHub license][license-image]][license-url]
 
+## DEPRECATION
+This repo has been renamed and moved to [generator-zumata-npm](https://github.com/Zumata/generator-zumata-npm). Therefore this will no longer be maintained.
 
 ## Setup
 
