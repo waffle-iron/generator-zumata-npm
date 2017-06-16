@@ -43,6 +43,7 @@
     "yosay": "^2.0.0"
   },
   "devDependencies": {
+    "codecov": "^2.2.0",
     "coveralls": "^2.12.0",
     "eslint": "^4.0.0",
     "eslint-config-xo-space": "^0.16.0",
@@ -53,6 +54,8 @@
     "yeoman-test": "^1.6.0"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }

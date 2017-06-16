@@ -62,8 +62,8 @@ $ yo zumata-npm
 [travis-url]: https://travis-ci.org/Zumata/generator-zumata-npm
 [daviddm-image]: https://david-dm.org/Zumata/generator-zumata-npm.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/Zumata/generator-zumata-npm
-[coveralls-image]: https://coveralls.io/repos/github/Zumata/generator-zumata-npm/badge.svg
-[coveralls-url]: https://coveralls.io/github/Zumata/generator-zumata-npm
+[coveralls-image]: https://coveralls.io/repos/github/Zumata/generator-zumata-npm/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/Zumata/generator-zumata-npm?branch=master
 [codecov-image]: https://codecov.io/gh/Zumata/generator-zumata-npm/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/Zumata/generator-zumata-npm
 [nsp-image]: https://nodesecurity.io/orgs/motss/projects/6e9fabde-73e1-456c-a2d7-8588023ed1ce/badge
