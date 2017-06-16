@@ -1,26 +1,21 @@
 {
   "name": "generator-zumata-npm",
   "version": "0.3.1",
-  "description": "Generator to create template for any NPM package/ project",
+  "description": "Yet another generator to scaffold your NPM package/ project",
   "keywords": [
-    "generator",
+    "node",
     "npm",
-    "template",
-    "yeoman",
+    "package",
     "yeoman-generator",
-    "yo",
     "zumata",
     "zumata-npm"
   ],
   "homepage": "https://github.com/Zumata/generator-zumata-npm",
-  "bugs": {
-    "url": "https://github.com/Zumata/generator-zumata-npm/issues"
-  },
   "license": "MIT",
   "author": {
-    "name": "The Zumata Team",
-    "email": "gary.theis@zumata.com",
-    "url": "https://github.com/Zumata"
+    "name": "motss",
+    "email": "rong_sen.ng@zumata.com",
+    "url": "https://github.com/motss"
   },
   "files": [
     "generators"
@@ -31,12 +26,14 @@
     "url": "git@github.com:Zumata/generator-zumata-npm.git"
   },
   "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
   },
   "eslintConfig": {
     "env": {
-      "mocha": true
+      "jest": true,
+      "node": true
     },
     "extends": "xo-space"
   },
@@ -46,23 +43,16 @@
     "yosay": "^2.0.0"
   },
   "devDependencies": {
+    "coveralls": "^2.12.0",
     "eslint": "^4.0.0",
     "eslint-config-xo-space": "^0.16.0",
-    "gulp": "^3.9.0",
-    "gulp-codecov": "^3.0.1",
-    "gulp-coveralls": "^0.1.0",
-    "gulp-eslint": "^4.0.0",
-    "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-istanbul": "^1.0.0",
-    "gulp-line-ending-corrector": "^1.0.1",
-    "gulp-mocha": "^4.3.1",
-    "gulp-nsp": "^2.1.0",
-    "gulp-plumber": "^1.0.0",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
+    "nsp": "^2.6.3",
     "yeoman-assert": "^3.0.0",
     "yeoman-test": "^1.6.0"
   },
-  "engines": {
-    "node": ">= 6.9.1",
-    "npm": ">= 3.10.8"
+  "jest": {
+    "testEnvironment": "node"
   }
 }

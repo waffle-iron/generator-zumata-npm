@@ -1,7 +1,13 @@
 # <%= packageName %>
-Yet another NPM package to output greetings.
+
+> Yet another NPM package to output greetings.
+
+Just another NPM package that does simply amazing thing.
 
 ## How to use
+
+The following is a simple code snippet:
+
 ```js
 /* Import the package */
 const greetings = require('<%= packageName %>');

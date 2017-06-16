@@ -1,17 +1,18 @@
-'use strict';
+// @ts-check
 
+'use strict';
 const Generator = require('yeoman-generator');
 const chalk = require('chalk');
 const yosay = require('yosay');
 
-module.exports = Generator.extend({
-  prompting: function () {
+module.exports = class extends Generator {
+  prompting() {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the polished ' + chalk.red('generator-zumata-npm') + ' generator!'
+      'Welcome to the awesome ' + chalk.red('generator-zumata-npm') + ' generator!'
     ));
 
-    var prompts = [{
+    const prompts = [{
       type: 'input',
       name: 'packageName',
       message: 'What would you like your package to be named?',
@@ -20,13 +21,13 @@ module.exports = Generator.extend({
       }
     }];
 
-    return this.prompt(prompts).then(function (props) {
+    return this.prompt(prompts).then(props => {
       // To access props later use this.props.someAnswer;
       this.props = props;
-    }.bind(this));
-  },
+    });
+  }
 
-  writing: function () {
+  writing() {
     const TPLS = [
       'src/_index.js',
       '_package.json',
@@ -50,9 +51,9 @@ module.exports = Generator.extend({
       this.destinationPath(tpl.replace(/(_)/gi, '')),
       this.props
     ));
-  },
+  }
 
-  install: function () {
+  install() {
     this.installDependencies({
       bower: false,
       npm: true,
@@ -62,4 +63,4 @@ module.exports = Generator.extend({
       }
     });
   }
-});
+};

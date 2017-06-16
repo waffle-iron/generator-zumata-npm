@@ -1,6 +1,6 @@
 # generator-zumata-npm
 
-> Generator to create template for any NPM package/ project
+> Yet another generator to scaffold your NPM package/ project.
 
 [![NPM][nodei-image]][nodei-url]
 
@@ -12,7 +12,6 @@
 [![codecov][codecov-image]][codecov-url]
 [![NSP Status][nsp-image]][nsp-url]
 [![GitHub license][license-image]][license-url]
-
 
 ## Setup
 
@@ -30,16 +29,17 @@ Please make sure that you have the followings installed on your machine:
 
 First, install [Yeoman](http://yeoman.io) and generator-zumata-npm using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
-```
+```sh
+# Install with NPM
 $ npm install -g yo generator-zumata-npm
 ```
 
 Then generate your new project:
 
-```
+```sh
+# Init with yo
 $ yo zumata-npm
 ```
-
 
 ## Getting To Know Yeoman
 
@@ -48,10 +48,9 @@ $ yo zumata-npm
 - Yeoman can be too opinionated at times but is easily convinced not to be.
 - Feel free to [learn more about Yeoman](http://yeoman.io/).
 
-
 ## License
-[MIT License](http://the-zumata-team.mit-license.org/) © The Zumata Team
 
+[MIT License](http://the-zumata-team.mit-license.org/) © The Zumata Team
 
 [nodei-image]: https://nodei.co/npm/generator-zumata-npm.png?downloads=true&downloadRank=true&stars=true
 [nodei-url]: https://nodei.co/npm/generator-zumata-npm/
