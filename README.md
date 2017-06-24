@@ -1,5 +1,7 @@
 # generator-zumata-npm
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c84a41b8422245058a8c1acd17fd7e23)](https://www.codacy.com/app/motss/generator-zumata-npm?utm_source=github.com&utm_medium=referral&utm_content=Zumata/generator-zumata-npm&utm_campaign=badger)
+
 > Yet another generator to scaffold your NPM package/ project.
 
 [![NPM][nodei-image]][nodei-url]
