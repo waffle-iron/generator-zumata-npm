@@ -6,6 +6,11 @@ const chalk = require('chalk');
 const yosay = require('yosay');
 
 module.exports = class extends Generator {
+  /**
+   * Prompts the user for input.
+   *
+   * @returns {Promise} Promise to capture user's input.
+   */
   prompting() {
     // Have Yeoman greet the user.
     this.log(yosay(
@@ -16,6 +21,9 @@ module.exports = class extends Generator {
       type: 'input',
       name: 'packageName',
       message: 'What would you like your package to be named?',
+      /**
+       * Package name. Defaults to current working directory.
+       */
       default: () => {
         return process.cwd().replace(/(?:.*[/\\])([^/\\]+?)[/\\]*?$/gi, '$1');
       }
@@ -27,6 +35,10 @@ module.exports = class extends Generator {
     });
   }
 
+  /**
+   * Writing necessary files and folders to destination path.
+   *
+   */
   writing() {
     const TPLS = [
       'src/_index.js',
@@ -53,11 +65,18 @@ module.exports = class extends Generator {
     ));
   }
 
+  /**
+   * Install necessary dependencies with selected package manager.
+   *
+   */
   install() {
     this.installDependencies({
       bower: false,
       npm: true,
       yarn: false,
+      /**
+       * Output message after installation succeeds.
+       */
       callback: () => {
         console.log(`✨  Your NPM package ${chalk.green(this.props.packageName)} is ready! ✨`);
       }

@@ -16,7 +16,7 @@ COPY . ./
 RUN npm install -g http-server
 
 # install local dependencies
-RUN npm install
+RUN npm install --silent --update-binary
 
 # run build
 RUN npm run build

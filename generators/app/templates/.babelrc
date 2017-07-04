@@ -3,12 +3,11 @@
   "env": {
     "default": {
       "presets": [
-        [ "env", { "targets": { "node": "current" } } ],
-        [ "babili", {
-          "replace": false,
-          "removeConsole": false,
-          "removeDebugger": false
-        } ]
+        [ "env", { "targets": { "node": "current" } } ]
+      ],
+      "plugins": [
+        "transform-function-bind",
+        "transform-object-rest-spread"
       ]
     },
     "build": {
@@ -19,6 +18,10 @@
           "removeConsole": false,
           "removeDebugger": true
         } ]
+      ],
+      "plugins": [
+        "transform-function-bind",
+        "transform-object-rest-spread"
       ],
       "ignore": [
         "**/__mocks*__/*.js",
