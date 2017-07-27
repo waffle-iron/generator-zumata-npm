@@ -1,6 +1,6 @@
 {
   "name": "generator-zumata-npm",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Yet another generator to scaffold your NPM package/ project",
   "keywords": [
     "node",
