@@ -27,7 +27,7 @@ describe('generator-zumata-npm:app', () => {
       '.eslintignore',
       '.gitattributes',
       '.npmignore',
-      'clean-directories.sh',
+      'clean-dir.sh',
       'CONTRIBUTORS',
       'LICENSE',
       'run-build.sh'
